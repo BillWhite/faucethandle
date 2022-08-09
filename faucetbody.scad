@@ -14,7 +14,9 @@ assemble() {
                 z=baseH+2*EPS);
             Z(65-40.3+4) turnYZ(90) tube(d=8.2, h=60, solid=true);
             TOUP() Y(baseOuterD/2) box(65-40.3+4, x=8.2);
-            Z(45) Y(60) handle();
         }
+    }
+    add() {
+            Z(45) Y(60) handle();
     }
 }    
